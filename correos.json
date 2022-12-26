@@ -1,0 +1,35 @@
+{	
+	 "usuarios": [
+        {
+            "nombre": "*Elizabeth Olarte*",
+            "equipo": "Promigas",
+            "numero": "whatsapp:+573134927808",
+            "correo": "elizabetholarte0@gmail.com"
+        },
+        {
+            "nombre": "*Walter Aparicio*",
+            "equipo": "Promigas",
+            "numero": "whatsapp:+573135741207",
+            "correo": "walter.aparicio@promigas.com"
+        },
+        {
+            "nombre": "*Jose Meza*",
+            "equipo": "Promigas",
+            "numero": "whatsapp:+573183530262",
+            "correo": "jose.meza@promigas.com"
+        },
+        {
+            "nombre": "*Alfredo Davis*",
+            "equipo": "Promigas",
+            "numero": "whatsapp:+573114188994",
+            "correo": "alfredo.davis@promigas.com"
+        },
+	    {
+	        "nombre": "*Erwin*",
+            "equipo": "Promigas",
+            "numero": "whatsapp:+573108101000",
+            "correo": "erwingonzalez@cbit-online.com"
+        }
+
+    ]
+}

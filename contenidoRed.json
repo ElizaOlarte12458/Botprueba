@@ -1,0 +1,274 @@
+{"contenido":[
+		{"tag":".Saludo",
+			"patrones":["0","hola","hello","ola", "holi", "Buenas", "oli", "hi"],
+			"respuesta":["Hola, Bienvenido a Promigas soy *PromiBot*, es un gusto poder ayudarte, a continuación tienes una serie de opciones que puedes elegir según lo que quieras consultar:\n\n*1.* Soporte de medición \n*2.* Controladores\n*3.* Válvula de seguridad "],
+			"codigo":["0"]
+		},
+		{"tag":"Adios",
+			"patrones":["adios","chao","nos vemos", "que le vaya bien", "gracias", "muchas gracias"],
+			"respuesta":["Gracias por contactarnos"],
+			"codigo":[""]
+
+		},
+		{"tag":"nada",
+			"patrones":["shfasjd","kjhfaisjfpaod","jsnjd", "lsjsdj","iushdaoijdaoidj"],
+			"codigo":[""]
+
+		},
+		{"tag":"1",
+			"patrones":["01","Soporte de medicion", "soporte de medicion", "soporte", "medicion","Soporte de ó", "soporte de medición", "soporte", "medición"],
+			"respuesta":["Te encuentras en la opción *1. Soporte de medición*, Elige la opción de tu preferencia\n\n*1.* Medidor \n*2.* Computadores de flujo \n*3.* Variables asociadas  "],
+			"codigo":["1"]
+
+		},
+		{"tag":"2",
+			"patrones":["02","controladores", "Controladores", "produccion", "planta", "produccion planta", "producción", "producción planta"],
+			"respuesta":["Te encuentras en la opción *2. Controladores*, Elige la opción de tu preferencia\n\n*1.* Modos de fallas \n*2.* Comunicaciones \n*3.* Archivos de programas "],
+			"codigo":["2"]
+
+		},
+		{"tag":"3",
+			"patrones":["03","Valvula de seguridad", "valvula seguridad", "valvula", "seguridad","Válvula de seguridad", "válvula seguridad", "válvula"],
+			"respuesta":["Te encuentras en la opción *3. Válvula de seguridad*, Elige la opción de tu preferencia\n\n*1.* Normativa \n*2.* Informes "],
+			"codigo":["3"]
+
+		},
+		{"tag":"medidor",
+			"patrones":["11","medidor", "Medidor", "medidor", "medidor"],
+			"respuesta":["Te encuentras en la opción *1. Medidor* Elige la opción de tu preferencia\n\n*1.* Ultrasónico \n*2.* Rotatorio \n*3.* Másico  "],
+			"codigo":["11"]
+
+		},
+		{"tag":"computadores de flujo",
+			"patrones":["12","computadores de flujo", "computadores", "flujo", "Computadores de flujo"],
+			"respuesta":["Te encuentras en la opción *2. Computadores de flujo*, Elige la opción de tu preferencia\n\n*1.* Control Wave \n*2.* Control Eagle"],
+			"codigo":["12"]
+
+		},
+		{"tag":"variables asociadas",
+			"patrones":["13","variables asociadas", "variables asociadas", "asociadas", "asociadas"],
+			"respuesta":["Te encuentras en la opción *3. Variables asociadas*, Elige la opción de tu preferencia\n\n*1.* Presión \n*2.* Temperatura"],
+			"codigo":["13"]
+		},
+		{"tag":"ultrasonico",
+			"patrones":["111","Ultrasonico", "ultrasonico", "ultrasonico", "ultrasonico"],
+			"respuesta":["Te encuentras en la opción *1. Ultrasónico*, Elige la opción de tu preferencia\n\n*1.* Marca Daniel \n*2.* Marca Krohne"],
+			"codigo":["111"]
+
+		},
+		{"tag":"rotatorio",
+			"patrones":["112","rotatorio", "Rotatorio", "rotatorio", "rotatorio"],
+			"respuesta":["Te encuentras en la opción *2. Rotatorio*, Elige la opción de tu preferencia\n\n*1.* Salida de pulso \n*2.* Daños odómetros"],
+			"codigo":["112"]
+
+		},
+		{"tag":"masico",
+			"patrones":["113","masico", "Masico", "masico", "masico"],
+			"respuesta":["Te encuentras en la opción *3. Másico*, Elige la opción de tu preferencia\n\n*1.* Prueba de cero \n*2.* Comunicación local \n*3.* Salida de frecuencia  "],
+			"codigo":["113"]
+
+		},
+		{"tag":"Daniel",
+			"patrones":["1111","Daniel", "daniel", "daniel", "Daniel"],
+			"respuesta":["Te encuentras en la opción *1. Daniel*, Elige la opción de tu preferencia\n\n*1.* Parametrización \n*2.* Modo de falla \n*3.* Descarga de reportes  "],
+			"codigo":["1111"]
+
+		},
+		{"tag":"Krohne",
+			"patrones":["1112","krohne", "Krohne", "krohne", "Krohne"],
+			"respuesta":["Te encuentras en la opción *2. Krohne*, Elige la opción de tu preferencia\n\n*1.* Parametrización \n*2.* Modo de falla \n*3.* Descarga de reportes  "],
+			"codigo":["1112"]
+
+		},
+		{"tag":"salida de pulso",
+			"patrones":["1121","salida de pulso", "salida", "pulso", "salida de pulso"],
+			"respuesta":["Te encuentras en la opción *1. Salida de pulso* \n\n Respuesta pendiente "],
+			"codigo":[""]
+
+		},
+		{"tag":"daños odometro",
+			"patrones":["1122","daños odometro", "odometro", "odometricos", "Daños odometro"],
+			"respuesta":["Te encuentras en la opción *2. Daños Odómetros*\n\n Respuesta pendiente "],
+			"codigo":[""]
+
+		},
+		{"tag":"prueba de cero",
+			"patrones":["1131","prueba de cero", "prueba", "cero", "prueba de cero"],
+			"respuesta":["Te encuentras en la opción *1. Prueba de cero*\n\n Respuesta pendiente "],
+			"codigo":[""]
+
+		},
+		{"tag":"comunicacion local",
+			"patrones":["1132","comunicacion local", "comunicacion local", "Comunicacion local", "Comunicacion Local"],
+			"respuesta":["Te encuentras en la opción *2. Soporte de medición*\n\n Respuesta pendiente "],
+			"codigo":[""]
+
+		},
+		{"tag":"salida de frecuencia",
+			"patrones":["1133","salida de frecuencia", "Salida de frecuencia", "frecuencia", "Frecuencia"],
+			"respuesta":["Te encuentras en la opción *3. salida de frecuencia*\n\n Respuesta pendiente "],
+			"codigo":[""]
+
+		},
+		{"tag":"control wave",
+			"patrones":["121","control wave", "Control wave", "control Wave", "Control Wave"],
+			"respuesta":["Te encuentras en la opción *1. Control Wave*, Elige la opción de tu preferencia\n\n*1.* calibración de variables Wave \n*2.* Fallas Wave"],
+			"codigo":["121"]
+
+		},
+		{"tag":"control eagle",
+			"patrones":["122","control eagle", "Control Eagle", "control Eagle", "Control eagle"],
+			"respuesta":["Te encuentras en la opción *2. Control Eagle*, Elige la opción de tu preferencia\n\n*1.* calibración de variables Eagle \n*2.* Fallas Eagle"],
+			"codigo":["122"]
+		},
+		{"tag":"calibracionvariablesWave",
+			"patrones":["1211","calibracion Wave", "calibracion de variables Wave", "variables Wave", "calibracion Wave", "Wave"],
+			"respuesta":["Te encuentras en la opción *1. calibración de variables Wave*\n\n Respuesta pendiente "],
+			"codigo":[""]
+
+		},
+		{"tag":"fallasWave",
+			"patrones":["1212","Fallas Wave", "fallas Wave", "fallas wave", "Fallas Wave"],
+			"respuesta":["Te encuentras en la opción *2. Fallas Wave*, Elige la opción de tu preferencia\n\n*1.* No app  \n*2.* Entrada de pulso \n*3.* Sensores de presión y temperatura\n*4.* Comunicación"],
+			"codigo":["1212"]
+
+		},
+		{"tag":"calibracionvariablesEagle",
+			"patrones":["1221","calibracion variables Eagle", "calibracion Eagle", "variables Eagle", "calibracion Eagle", "Eagle"],
+			"respuesta":["Te encuentras en la opción *1. calibración de variables Eagle*\n\n Respuesta pendiente"],
+			"codigo":[""]
+
+		},
+		{"tag":"fallasEagle",
+			"patrones":["1222","fallas Eagle", "Fallas eagle", "fallas eagle", "Fallas Eagle"],
+			"respuesta":["Te encuentras en la opción *2. Fallas Eagle*, Elige la opción de tu preferencia\n\n*1.* DDB \n*2.* Entrada de pulso \n*3.* Sensores de presión y temperatura\n*4.* Comunicación  "],
+			"codigo":["1222"]
+
+		},
+		{"tag":"entrada de pulsoWave",
+			"patrones":["12122","entrada Wave", "entrada pulso Wave", "entrada de pulso Wave", "Entrada de pulso Wave"],
+			"respuesta":["Te encuentras en la opción *2. Entrada de pulso Wave*\n\n Respuesta pendiente"],
+			"codigo":[""]
+		},
+		{"tag":"sensores de presion y temperaturaWave",
+			"patrones":["12123","sensores de presion y temperatura Wave", "sensores de presion y temperatura Wave", "sensores de presion y temperatura Wave", "sensores de presion y temperatura Wave"],
+			"respuesta":["Te encuentras en la opción *3. Sensores de presión y temperatura Wave*\n\n Respuesta pendiente "],
+			"codigo":[""]
+
+		},
+		{"tag":"no app",
+			"patrones":["12121","no app", "no APP", "No app", "No App"],
+			"respuesta":["Te encuentras en la opción *1. No app*, Elige la opción de tu preferencia\n\n*1.* Medidor \n*2.* Computadores de flujo \n*3.* Variables asociadas  "],
+			"codigo":["12121"]
+
+		},
+		{"tag":"comunicacionWave",
+			"patrones":["12124","comunicacion Wave", "comunicacion Wave", "comunicacion Wave", "comunicacion Wave"],
+			"respuesta":["Te encuentras en la opción *4. Comunicación Wave*\n\n Respuesta pendiente "],
+			"codigo":[""]
+
+		},
+		{"tag":"ddb",
+			"patrones":["12221","ddb", "ddb", "Ddb", "DDB"],
+			"respuesta":["Te encuentras en la opción *1. DDB*\n\n Respuesta pendiente "],
+			"codigo":[""]
+
+		},
+		{"tag":"entrada de pulsoEagle",
+			"patrones":["12222","entrada de pulsoEagle", "entrada pulso Eagle", "Entrada de pulso Eagle", "entrada de pulso eagle"],
+			"respuesta":["Te encuentras en la opción *2. Entrada de pulso Eagle*\n\n Respuesta pendiente "],
+			"codigo":[""]
+
+		},
+		{"tag":"sensores de presion y temperaturaEagle",
+			"patrones":["12223","sensores de presion y temperatura Eagle", "sensores de presion y temperatura Eagle", "sensores de presion y temperatura Eagle", "sensores de presion y temperatura Eagle"],
+			"respuesta":["Te encuentras en la opción *3. Sensores de presión y temperatura Eagle*\n\n Respuesta pendiente"],
+			"codigo":[""]
+
+		},
+		{"tag":"comunicacionEagle",
+			"patrones":["12224","comunicacion Eagle", "comunicacion Eagle", "comunicacion Eagle", "comunicacion Eagle"],
+			"respuesta":["Te encuentras en la opción *4. Comunicación Eagle*\n\n Respuesta pendiente"],
+			"codigo":[""]
+
+		},
+		{"tag":"Presion",
+			"patrones":["131","Presion", "presion", "+Presion", "presion"],
+			"respuesta":["Te encuentras en la opción *1. Presión*, Elige la opción de tu preferencia\n\n*1.* Medición eléctrica \n*2.* Comunicación hart "],
+			"codigo":["131"]
+
+		},
+		{"tag":"Temperatura",
+			"patrones":["132","Temperatura", "temperatura", "Temperatura", "temperatura"],
+			"respuesta":["Te encuentras en la opción *2.Temperatura*, Elige la opción de tu preferencia\n\n*1.* Medición eléctrica \n*2.* Comunicación hart "],
+			"codigo":["132"]
+
+		},
+		{"tag":"Medicion electrica presion",
+			"patrones":["1311","Medicion electrica presion", "medicion electrica presion", "Medicion ekectrica presion", "Medicion electrica presion"],
+			"respuesta":["Te encuentras en la opción *1. Medición eléctrica - presión*\n\n Respuesta pendiente"],
+			"codigo":[""]
+
+		},
+		{"tag":"Comunicacion hart",
+			"patrones":["1312","comunicacion hart", "comunicacion hart", "comunicacion hart - presion", "comunicacion hart"],
+			"respuesta":["Te encuentras en la opción *2. Comunicación hart - presión*\n\n Respuesta pendiente"],
+			"codigo":[""]
+
+		},
+		{"tag":"Medicion electrica temperatura",
+			"patrones":["1321","Medicion electrica temperatura", "medicion electrica temperatura", "Medicion electrica temperatura", "Medicion electrica temperatura"],
+			"respuesta":["Te encuentras en la opción *1. Medición eléctrica - temperatura*\n\n Respuesta pendiente"],
+			"codigo":[""]
+
+		},
+		{"tag":"Comunicacion hart temperatura",
+			"patrones":["1322","comunicacion hart", "comunicacion hart", "comunicacion hart - temperatura", "comunicacion hart"],
+			"respuesta":["Te encuentras en la opción *2. Comunicación hart - temperatura*\n\n Respuesta pendiente"],
+			"codigo":[""]
+
+		},
+		{"tag":"modos de falla",
+			"patrones":["21","modos de falla", "Modos de falla", "modos de falla", "Modos de falla"],
+			"respuesta":["Te encuentras en la opción *1. Modos de falla*\n\n Respuesta pendiente"],
+			"codigo":[""]
+
+		},
+		{"tag":"comunicaciones",
+			"patrones":["22","comunicaciones", "comunicaciones", "comunicaciones", "comunicaciones"],
+			"respuesta":["Te encuentras en la opción *2. Comunicaciones*\n\n Respuesta pendiente"],
+			"codigo":[""]
+
+		},
+		{"tag":"Archivos de programas",
+			"patrones":["23","Archivos de programas", "Archivos de programas", "Archivos de programas", "Archivos de programas"],
+			"respuesta":["Te encuentras en la opción *3. Archivos de programas*\n\n Por favor escriba que distrito necesita"],
+			"codigo":[""]
+
+		},
+		{"tag":"Normativa",
+			"patrones":["Normativa", "normativa", "Normativa", "normativa"],
+			"respuesta":["Te encuentras en la opción *1. Normativa*\n\n Respuesta pendiente"],
+			"codigo":[""]
+
+		},
+		{"tag":"Informes",
+			"patrones":["Informes", "informes", "Informes", "informes"],
+			"respuesta":["Te encuentras en la opción *2. Informes*\n\n Por favor escriba que distrito necesita"],
+			"codigo":[""]
+
+		},
+		{"tag":"distrito",
+			"patrones":["distrito", "distrito", "distrito", "distrito"],
+			"respuesta":["Por favor escriba cuál es la estación"],
+			"codigo":[""]
+
+		},
+		{"tag":"estacion",
+			"patrones":["estacion", "estacion", "estacion", "estacion"],
+			"respuesta":["El archivo de su interés fué enviado a su correo electrónico"],
+			"codigo":[""]
+
+		}
+	]
+}
